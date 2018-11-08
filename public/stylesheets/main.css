@@ -1,0 +1,36 @@
+/* footer styles */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+/*    Margin bottom by footer height*/
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* set the fixed height of the footer */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.delete-form {
+    display: inline;
+}
